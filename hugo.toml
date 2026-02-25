@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.nanako.cyou/'
 languageCode = 'zh-cn'
 title = '人间清醒局'
 theme = 'PaperMod'
@@ -28,7 +28,7 @@ theme = 'PaperMod'
 
 [[params.socialIcons]]
   name = "github"
-  url = "https://github.com"
+  url = "https://github.com/Lucky-5i/sober-bureau"
 
 [menu]
   [[menu.main]]
