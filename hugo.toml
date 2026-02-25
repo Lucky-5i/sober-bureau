@@ -6,6 +6,16 @@ theme = 'PaperMod'
 [params]
   description = "情感、两性、星座、心理、塔罗 - 不鸡汤，不说教，只讲人间清醒事"
   author = "Lucky (INTJ · 射手座)"
+  
+  [params.assets]
+    favicon = "/logo.jpg"
+    favicon16x16 = "/logo.jpg"
+    favicon32x32 = "/logo.jpg"
+    apple_touch_icon = "/logo.jpg"
+  
+  [params.label]
+    icon = "/logo.jpg"
+    iconHeight = 35
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
