@@ -5,7 +5,7 @@ theme = 'PaperMod'
 
 [params]
   description = "情感、两性、星座、心理、塔罗 - 不鸡汤，不说教，只讲人间清醒事"
-  author = "Lucky"
+  author = "Lucky (INTJ · 射手座)"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
