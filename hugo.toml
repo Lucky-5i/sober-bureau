@@ -2,6 +2,7 @@ baseURL = 'https://sober.lucky-5i.vip/'
 languageCode = 'zh-cn'
 title = '人间清醒局'
 theme = 'PaperMod'
+rssLimit = 20
 
 [params]
   description = "情感、两性、星座、心理、塔罗 - 不鸡汤，不说教，只讲人间清醒事"
