@@ -5,6 +5,9 @@ url: "/about/"
 summary: "关于人间清醒局"
 hidemeta: true
 ShowToc: false
+_build:
+  list: never
+  render: always
 ---
 
 ## 人间清醒局是什么？
