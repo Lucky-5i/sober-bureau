@@ -1,0 +1,35 @@
+<!-- 网站运行时间 -->
+<div style="text-align: center; padding: 20px 0; color: var(--secondary); font-size: 14px;">
+    <div id="site-runtime" style="margin-bottom: 10px;"></div>
+    <div style="margin-bottom: 10px;">
+        <span id="busuanzi_container_site_pv" style="margin-right: 15px;">
+            👀 本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
+        </span>
+        <span id="busuanzi_container_site_uv">
+            👤 访客数 <span id="busuanzi_value_site_uv"></span> 人
+        </span>
+    </div>
+</div>
+
+<script>
+// 网站运行时间计算
+function updateRuntime() {
+    const startTime = new Date('2025-02-25T22:00:00+08:00').getTime();
+    const now = new Date().getTime();
+    const diff = now - startTime;
+    
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    
+    document.getElementById('site-runtime').innerHTML = 
+        `⏰ 本站已运行 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒`;
+}
+
+updateRuntime();
+setInterval(updateRuntime, 1000);
+</script>
+
+<!-- 不蒜子统计 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
