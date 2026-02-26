@@ -37,8 +37,8 @@ theme = 'PaperMod'
   Content = "这里聊情感、两性、星座、心理和塔罗。不说教，不鸡汤，只讲人间清醒事。"
 
 [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/Lucky-5i/sober-bureau"
+  name = "rss"
+  url = "/index.xml"
 
 [menu]
   [[menu.main]]
@@ -56,6 +56,11 @@ theme = 'PaperMod'
     name = "归档"
     url = "/archives/"
     weight = 30
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 40
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
