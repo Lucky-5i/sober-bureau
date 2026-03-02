@@ -1,0 +1,28 @@
+@media (min-width: 1024px) {
+  .post-entry {
+    position: relative;
+  }
+
+  .post-entry .entry-cover {
+    float: left;
+    width: min(34%, 320px);
+    margin: 0 20px 0 0;
+  }
+
+  .post-entry .entry-cover img {
+    width: 100%;
+    aspect-ratio: 1200 / 630;
+    object-fit: cover;
+    height: auto;
+  }
+
+  .post-entry .entry-header h2 {
+    font-size: 22px;
+  }
+
+  .post-entry::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
