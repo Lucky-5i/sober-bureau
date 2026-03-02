@@ -5,6 +5,10 @@ draft: false
 tags: ["情感", "独立", "两性关系", "人间清醒"]
 categories: ["情感"]
 description: "独立不是问题，问题是大多数人配不上独立"
+cover:
+  image: "/images/covers/independent-people-hard-to-find-partner-cover.jpg"
+  alt: "云海中的孤峰，远处微光靠近"
+  relative: false
 ---
 
 ## 独立的人为什么单身？
