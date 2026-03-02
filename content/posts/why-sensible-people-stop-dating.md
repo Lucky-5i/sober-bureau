@@ -4,6 +4,10 @@ date: 2026-02-28T10:00:00+08:00
 draft: false
 tags: ["情感", "两性关系", "自我成长"]
 categories: ["情感"]
+cover:
+  image: "/images/covers/why-sensible-people-stop-dating-cover.jpg"
+  alt: "懂事的人在夜晚独自看着手机"
+  relative: false
 ---
 
 凌晨两点，她看着手机屏幕上的"晚安"，想了很久，最后还是回了个"嗯，你也早点睡"。
